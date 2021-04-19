@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Fernando Gabriel Villabrile">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CV Fernando Gabriel Villabrile</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+                margin: 5% 10% 20%;
+                line-height: 1.4rem;
+                display: grid;
+                grid-template-columns: 40% 60%;
+            }
+            aside {
+                margin-right: 2.5rem;
+            }
+            h1 {
+                font-size: 2.7rem;
+                font-weight: 900;
+                line-height: normal;
+            }
+            h2 {
+                font-size: 1.5rem;
+                line-height: normal;
+            }
+            h3 {
+                font-size: 1.5rem;
+                color: green;
+                text-transform: uppercase;
+                line-height: normal;
+                margin-top: 4.33rem;
+                margin-bottom: 0;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+            a {
+                text-decoration: none;
+                color: inherit;
+                display: inline-block;
+                padding: .2rem 1rem .2rem 0;
+            }
+            a:hover {
+                background-color: green;
+                color: white;
+                border-radius: 30px;
+                padding: .2rem 1rem;
+                transition: .5s;
+            }
+            span {
+                color: gray;
+            }
+            img {
+                width: 100%;
+            }
+            .contact-container {
+                margin: 1rem auto;
+            }
+            /* .contact1, .more1 {
+                margin-bottom: 0;
+            } */
+            .contact2, .more2 {
+                margin-top: 1rem;
+            }
+            .historia {
+                display: grid;
+                grid-template-columns: 12% 88%;
+                column-gap: 1.5rem;
+            }
+            .date {
+                text-align: right;
+            }
+            .tools {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 1.5rem;
+            }.skills {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: 1.5rem;
+            }
+            @media only screen and (max-width: 1150px) {
+                body {
+                    margin: 10% 20% 40%;
+                    grid-template-columns: 100%;
+                }
+            }
+            @media only screen and (max-width: 750px) {
+                .tools {
+                    grid-template-columns: 100%;
+                }
+                .skills {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            @media only screen and (max-width: 550px) {
+                            .skills {
+                    grid-template-columns: 100%;
+                }
+            }
+        </style>
+    </head>
+    
+    <body>
+        <aside>
+            <article>
+                <img src="./img/perfil.jpg" alt="Mi Foto">
+                <h1>Fernando Gabriel Villabrile</h1>
+    
+                <h2>Diseñador en Comunicación Visual, Multimedial, UX & UI</h2>
+                
+                <p><span>28 de Noviembre de 1990<br>
+                La Plata, Buenos Aires, Argentina</span></p>
+                
+                <section class="contact-container">
+                    <!-- <p class="contact1"><strong><a href="https://api.whatsapp.com/send?phone=XXX" target="_blank">+XXX</a></strong></p> -->
+                    <p class="contact2"><strong><a href="mailto:villabrille.fg@gmail.com" target="_blank">villabrille.fg@gmail.com</a></strong></p>
+                </section>
+    
+                <p>Curioso, responsable, proactivo, resolutivo, empático y amigable, de buena presencia, trato amable y respetuoso. Apruebo e incentivo el trabajo en equipos interdisciplinares para generación de ideas. Con ganas y facilidad para aprender, poseo conocimiento y experiencia en atención al público, ventas, diseño impreso y digital.</br>
+                Busco nuevas experiencias y habilidades para desarrollarme personalmente y ofrecer lo mejor de mi para satisfacer necesidades del cliente y la empresa en su crecimiento.</p>
+            </article>
+            
+            <article>
+                <h3>Idiomas</h3>
+                <p>
+                    <strong>Español, Inglés, Portugués</strong><br>
+                    <span>Capaz de leer, redactar y conversar</span>
+                </p>
+                <p>
+                    <strong>Francés, Italiano, Alemán</strong><br>
+                    <span>Comprensión de nociones básicas</span>
+                </p>
+            </article>
+            <article>
+                <h3>Ver más...</h3>
+                <p class="more1">
+                    <a href="https://www.behance.net/villabrille_fg" target="_blank"><strong>Porfolio en Behance</strong></a>
+                </p>
+                <p class="more2">
+                    <a href="https://www.linkedin.com/in/villabrillefgdcv/"><strong>Perfil en Linkedin</strong></a>
+                </p>
+            </article>
+        </aside>
+        <section>
+            <article>
+                <h3>Formación Académica</h3>
+                <div class="historia">
+                    <p class="date">abr. 2010 <br> oct. 2020</p>
+                    <p>
+                        <strong>Diseñador en Comunicación Visual</strong><br>
+                        <span>Facultad de Artes - Universidad Nacional de La Plata</span>
+                    </p>
+                    <p class="date">sep. 2020</p>
+                    <p>
+                        <strong>Desarrollo web. HTML desde cero. Edición 2020</strong><br><span>Udemy</span>
+                    </p>
+                    <p class="date">sep. 2020</p>                
+                    <p>
+                        <strong>Desarrollo web. CSS desde cero. Edición 2020</strong><br> <span>Udemy</span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h3>Experiecia Laboral</h3>
+                <div class="historia">
+                    <p class="date">abr. 2021 <span>Actual</span></p>
+                    <p>
+                        <strong>Tutor</strong> - Coderhouse<br>
+                        <span>Acompañar al grupo docente y estudiantes en el proceso de aprendizaje. Corrección de trabajos del curso de After Effects.</span>
+                    </p>
+                    <p class="date">nov. 2020 <span>Actual</span></p>
+                    <p>
+                        <strong>Diseñador UX/UI</strong> - Aula Mejor<br>
+                        <span>Diseño, maquetación y desarrollo de interfaces de usuario y páginas webs. Diseño y gestión de campañas de e-mail marketing.</span>
+                    </p>
+                    <p class="date">nov. 2018 <br> dic. 2019</p>
+                    <p>
+                        <strong>Propietario y Administrador</strong> - Librería y Papelería QT<br>
+                        <span>Atención al cliente y proveedores. Control de stock, balances e inversión. Confección de diseños personalizados.</span>
+                    </p>
+                    <p class="date">ene. 2017 <br> feb. 2019</p>
+                    <p>
+                        <strong>Propietario y Administrador</strong> - Salón Gizeh Eventos<br>
+                        <span>Atención al cliente y proveedores. Control de stock, balances e inversión. Seguimiento de eventos y personal a cargo. </span>
+                    </p>
+                    <p class="date">abr. 2016 <br> ene. 2019</p>
+                    <p>
+                        <strong>Jefe de Fotografía</strong> - Leandro Montenegro Eventos<br>
+                        <span>Coordinación con el cliente y el personal. Entrevista con el cliente y cobro del servicio. Pago en tiempo y forma del personal a cargo.</span>
+                    </p>
+                    <p class="date">ago. 2013 <br> dic. 2018</p>
+                    <p>
+                        <strong>Barman</strong> - Leandro Montenegro Eventos<br>
+                        <span>Preparación de bebidas. Organización y limpieza de espacio de trabajo. Interacción con el cliente y cobro del servicio.</span>
+                    </p>
+                    <p class="date">dic. 2013 <br> jun. 2015</p>
+                    <p>
+                        <strong>Gerente</strong> - Heladería Vauky<br>
+                        <span>Atención al cliente, limpieza del área e instrumentos de trabajo. Preparación y cobro de pedidos, manejo de caja, control de insumos y cierre del local.</span>
+                    </p>
+                    <p class="date">jul. 2012 <span>Actual</span></p>
+                    <p>
+                        <strong>Diseñador Multimedial</strong> - gaf Diseño y Comunicación<br>
+                        <span>Emprendimiento personal de servicios gráficos y multimediales. Trabajos en papel, vinilo y digitales. Atención al público y armado de pedidos.</span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h3>Herramientas</h3>
+                <div class="tools">
+                    <p>
+                        <strong>Adobe Photoshop</strong><br>
+                        <span>Edición y retoque fotográfico</span>
+                    </p>
+                    <p>
+                        <strong>Cinema 4D</strong><br>
+                        <span>Modelado 3D</span>
+                    </p>
+                    <p>
+                        <strong>Adobe Illustrator, CorelDRAW, Figma</strong><br>
+                        <span>Diseño de logos, interfaces y prototipos</span>
+                    </p>
+                    <p>
+                        <strong>Visual Studio Code, HTML, CSS, JavaScript</strong><br>
+                        <span>Desarrollo front-end</span>
+                    </p>
+                    <p>
+                        <strong>Adobe Audition, After Effects, Vegas Pro</strong><br>
+                        <span>Edición de sonido, video y animación</span>
+                    </p>
+                    <p>
+                        <strong>Google Analytics, Facebook Business</strong><br>
+                        <span>Medición de tráfico y análisis de datos</span>
+                    </p>
+                    <p>
+                        <strong>Adobe InDesign</strong><br>
+                        <span>Composición y diagramación de impresos</span>
+                    </p>
+                    <p>
+                        <strong>Microsoft Word, PowerPoint, Excel</strong><br>
+                        <span>Ofimática, presentaciones y administración</span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <h3>Habilidades</h3>
+                <strong class="skills">
+                    <p>Organización</p>
+                    <p>Gestión del tiempo</p>
+                    <p>Adaptabilidad</p>
+                    <p>Trabajo en equipo</p>
+                    <p>Atención a detalles</p>
+                    <p>Pensamiento de diseño</p>
+                    <p>Comunicación</p>
+                    <p>Entrevistas</p>
+                    <p>Arquetipos</p>
+                    <p>Investigación de usuario</p>
+                    <p>Resolución de problemas</p>
+                    <p>Atención al cliente</p>
+                </strong>
+            </article>
+        </section>
+    </body>
+</html>
